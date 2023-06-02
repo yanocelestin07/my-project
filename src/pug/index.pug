@@ -1,0 +1,199 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Agency - Start Bootstrap Theme
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+            .container
+                //- a.navbar-brand(href='#page-top')
+                //-     img(src='assets/img/navbar-logo.svg', alt='...')
+                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars.ms-1
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                        li.nav-item
+                            a.nav-link(href='#services') Jasa 
+                        //- li.nav-item
+                        //-     a.nav-link(href='#portfolio') Portfolio
+                        //- li.nav-item
+                        //-     a.nav-link(href='#about') About
+                        li.nav-item
+                            a.nav-link(href='#team') Tim
+                       
+        // Masthead
+        header.masthead
+            .container
+                .masthead-subheading Selamat Datang Di Website Kami!
+                .masthead-heading.text-uppercase Phoenix Galaxy
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Beritahu Kami
+
+        // Services
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Jasa
+                    h3.section-subheading.text-muted Hallo
+                .row.text-center
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-computer.fa-stack-1x.fa-inverse
+                        h4.my-3 Build Apps
+                        p.text-muted
+                            | Hay, im programer .If you want to make something website or app you can call me in my social media
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
+                        h4.my-3 Infrastructure Design
+                        p.text-muted
+                            | Hi I am a design, and calculation in infrastructure
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-water.fa-stack-1x.fa-inverse
+                        h4.my-3 Atlet
+                        p.text-muted
+                            | Hello, I am a badminton athlete who has not yet participated in the National Games (PON).
+        //- section#portfolio.page-section.bg-light
+        //-     .container
+        //-         .text-center
+        //-             h2.section-heading.text-uppercase Portfolio
+        //-             h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        //-         .row
+        //-             .col-lg-4.col-sm-6.mb-4
+        //-                 // Portfolio item 1
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Threads
+        //-                         .portfolio-caption-subheading.text-muted Illustration
+        //-             .col-lg-4.col-sm-6.mb-4
+        //-                 // Portfolio item 2
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Explore
+        //-                         .portfolio-caption-subheading.text-muted Graphic Design
+        //-             .col-lg-4.col-sm-6.mb-4
+        //-                 // Portfolio item 3
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Finish
+        //-                         .portfolio-caption-subheading.text-muted Identity
+        //-             .col-lg-4.col-sm-6.mb-4.mb-lg-0
+        //-                 // Portfolio item 4
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Lines
+        //-                         .portfolio-caption-subheading.text-muted Branding
+        //-             .col-lg-4.col-sm-6.mb-4.mb-sm-0
+        //-                 // Portfolio item 5
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Southwest
+        //-                         .portfolio-caption-subheading.text-muted Website Design
+        //-             .col-lg-4.col-sm-6
+        //-                 // Portfolio item 6
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Window
+        //-                         .portfolio-caption-subheading.text-muted Photography
+ 
+        // Team
+        section#team.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Our Amazing Team
+                    h3.section-subheading.text-muted Susah dulu baru senang
+                .row
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...' )
+                            h4 Yano Celestin
+                            p.text-muted Programer
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/yanocelestin07/', aria-label='Parveen Anand Twitter Profile')
+                                i.fab.fa-instagram
+                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand Facebook Profile')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Parveen Anand LinkedIn Profile')
+                                i.fab.fa-linkedin-in
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
+                            h4 Goi Kurniawan
+                            p.text-muted Engineering 
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/kurniawan.go__/', aria-label='Diana Petersen Twitter Profile')
+                                i.fab.fa-instagram
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/profile.php?id=100083936702215&mibextid=ZbWKwL', aria-label='Diana Petersen Facebook Profile')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Diana Petersen LinkedIn Profile')
+                                i.fab.fa-linkedin-in
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
+                            h4 Loys Waru
+                            p.text-muted Atlet BadMinton
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/loyswaru_07/', aria-label='Larry Parker Twitter Profile')
+                                i.fab.fa-instagram
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/loys.waru.7?mibextid=ZbWKwL', aria-label='Larry Parker Facebook Profile')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='#!', aria-label='Larry Parker LinkedIn Profile')
+                                i.fab.fa-linkedin-in
+                .row
+                    .col-lg-8.mx-auto.text-center
+                        p.large.text-muted
+                          | Hallo, this is the official website of Phoenix Galaxy. Phoenix Galaxy is a nickname for a squad consisting of three individuals who share the same hobby of lounging around but have boundless creativity. You can visit and witness our fun experiences on this website. That's all.
+     
